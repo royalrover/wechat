@@ -1,0 +1,22 @@
+{
+  "name": "Taxy",
+  "version": "1.0.0",
+  "description": "This is a public platform for the policy of tax",
+  "main": "public platform wechat tax",
+  "scripts": {
+      "start": "supervisor ./js/app.js"
+  },
+  "keywords": [
+    "tax",
+    "platform"
+  ],
+  "author": "yunqi",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.2.0",
+    "cheerio": "^0.19.0",
+    "express": "^4.12.4",
+    "q": "^1.4.1",
+    "superagent": "^1.2.0"
+  }
+}
